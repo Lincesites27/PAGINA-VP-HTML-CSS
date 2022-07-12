@@ -18,15 +18,15 @@
         <div class="container-menu">
             <div class="logo"><img src="img/logo-vp-roxo-svg.svg" alt=""></div>
             <div class="menu">
-                <input type="checkbox" id="btn1">
+                <input type="checkbox" id="btn1" class="botão1">
                 <label for="btn1"><a>Para você </a> <span class="material-symbols-outlined">
                         expand_more
                     </span>
                 </label>
 
-                <div class="modal1" id="modal1">
-                    <a href="#" id="debito">Débitos DETRAN</a>
-                    <a href="#" id="parcela">Parcelar boletos</a>
+                <div class="modal1">
+                    <a href="#" class="aberto">Débitos DETRAN</a>
+                    <a href="#" class="aberto">Parcelar boletos</a>
                 </div>
 
                 <a href="#">Empresas</a>
@@ -35,10 +35,10 @@
 
                 <input type="checkbox" id="btn2">
                 <label for="btn2"><a>Ajuda</a> <span class="material-symbols-outlined">
-                    expand_more
-                </span>
+                        expand_more
+                    </span>
 
-            </label>
+                </label>
             </div>
             <div class="btns">
                 <button class="btn-roxo">Abra sua conta</button>
@@ -46,6 +46,24 @@
             </div>
         </div>
     </nav>
+
+
+    <div class="lista-item">
+        <input type="checkbox" class="trigger-input" id="faq-titulo-1">
+        <div class="trigger-wrapper">
+            <label for="faq-titulo-1">
+                <a>Para você </a> <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+            </label>
+            <a href="#" class="faq-conteudo">Débitos DETRAN</a>
+            <a href="#" class="faq-conteudo">Parcelar boletos</a>
+
+        </div>
+
+
+
+    </div>
 
 
 </body>

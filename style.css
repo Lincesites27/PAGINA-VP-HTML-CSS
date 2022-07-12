@@ -110,9 +110,28 @@
     
 }
 
-input:checked + .modal1 #debito{
+.botao1:checked + .modal1 .aberto{
     display: block;
-    position: absolute;
+   
 }
 
 
+
+.faq-titulo
+{
+    cursor: pointer;
+    padding: 10px;
+}
+.trigger-input{
+   display: none;
+}
+
+.faq-conteudo
+{
+    display: none;
+}
+
+.trigger-input:checked + .trigger-wrapper .faq-conteudo
+{
+    display: block;
+}
