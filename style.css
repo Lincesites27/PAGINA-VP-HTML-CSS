@@ -24,7 +24,6 @@
 
 .logo
 {
-    max-width: 120px;
     cursor: pointer;
 }
 
@@ -97,41 +96,60 @@
     font-weight: 600;
 }
 
-.modal1{
-   
-    display: none;
+.modal1
+{
+    
     position: absolute;
     top: 50px;
     border: 1px solid #ccc;
    padding: 0px 35px 15px  15px;
 }
-.modal1 a{
+.modal1 a
+{
     margin-top:25px;
     
 }
 
-.botao1:checked + .modal1 .aberto{
-    display: block;
+
+.modal{
+    display: flex;
    
 }
-
-
-
-.faq-titulo
-{
-    cursor: pointer;
-    padding: 10px;
-}
-.trigger-input{
-   display: none;
-}
-
-.faq-conteudo
+.botao1
 {
     display: none;
 }
 
-.trigger-input:checked + .trigger-wrapper .faq-conteudo
+.segunda-section
 {
-    display: block;
+    background: url(img/Promo_site.png) no-repeat fixed;
+    height: 60vh;
+    background-size:100vw;
+    background-attachment: fixed;
+
+   
+}
+
+
+.container
+{
+    display: flex;
+    max-width: 1216px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container h1{
+    margin-top: 20vh;
+    color: #5619b4;
+    font-size: 52px;
+    
+}
+
+@media(min-widht:500px){
+    .container h1 {
+        font-size: 15px;
+        display: flex;
+    }
 }
