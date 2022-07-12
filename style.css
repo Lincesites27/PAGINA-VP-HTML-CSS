@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-menu
+{
+    display: flex;
+    max-width: 1216px;
+    margin: 0 auto;
+    padding: 20px 0px;
+   justify-content: space-around;
+   text-align: center;
+   align-items: center;
+}
+
+/* .container-menu input {
+    display: none;
+} */
+
+
+.logo
+{
+    max-width: 120px;
+    cursor: pointer;
+}
+
+.menu
+{
+    display: flex;
+    gap: 48px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+.menu label
+{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.menu a
+{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+ 
+}
+.menu a span
+{
+    display: flex;
+    text-align: center;
+}
+
+.menu a:hover{
+    color: #5619b4;
+}
+
+.btns{
+    display: flex;
+    gap: 16px;
+}
+
+.btns button
+{
+    cursor: pointer;
+    padding: 12px 24px;
+   
+}
+
+.btn-roxo
+{
+    background-color: #5619b4;
+    border: 1px solid #5619b4;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.btn-branco
+{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+    font-weight: 600;
+}
+
+.modal1{
+   
+    display: none;
+    position: absolute;
+    top: 50px;
+    border: 1px solid #ccc;
+   padding: 0px 35px 15px  15px;
+}
+.modal1 a{
+    margin-top:25px;
+    
+}
+
+input:checked + .modal1 #debito{
+    display: block;
+    position: absolute;
+}
+
+
